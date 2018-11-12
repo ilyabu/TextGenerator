@@ -14,7 +14,7 @@ namespace TextGenerator
             var testsToRun = new string[]
             {
                 "TextGenerator.SentencesParser_Tests",
-                //"TextGenerator.FrequencyAnalysis_Tests",
+                "TextGenerator.FrequencyAnalysis_Tests",
                 //"TextGenerator.TextGenerator_Tests",
             };
             new AutoRun().Execute(new[]
